@@ -1,0 +1,16 @@
+AUTH_TITLE = "Auth";
+AUTH_BUTTON = "Submit";
+FIRST_NAME_PLACEHOLDER = "Enter first name";
+LAST_NAME_PLACEHOLDER = "Enter last name";
+BIRTH_DATE_PLACEHOLDER = "Enter date of birth";
+PASSWORD_PLACEHOLDER = "Enter password";
+CONFIRM_PASSWORD_PLACEHOLDER = "Confirm password";
+FIRST_NAME_ONLY_LATIN_CHARACTERS_DESCRIPTION = "The first name must contain only Latin characters";
+FIRST_NAME_CAPITAL_LETTER_DESCRIPTION = "The first name must begin with a capital letter";
+FIRST_NAME_INCORRECT_LENGTH = "The first name must contain at least two characters";
+LAST_NAME_ONLY_LATIN_CHARACTERS_DESCRIPTION = "The last name must contain only Latin characters";
+LAST_NAME_CAPITAL_LETTER_DESCRIPTION = "The last name must begin with a capital letter";
+LAST_NAME_INCORRECT_LENGTH = "The last name must contain at least two characters";
+PASSWORD_INCORRECT_FORMAT = "Password must contain one digit from 0 to 9, one lowercase letter, one uppercase letter, one special character, no space, and it must be 8-16 characters long";
+PASSWORD_NO_MATCH = "Passwords don't match";
+BIRTH_DATE_UNDERAGE = "The age must be over 18 years old";

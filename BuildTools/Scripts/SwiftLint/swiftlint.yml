@@ -1,0 +1,52 @@
+disabled_rules:
+  - trailing_comma
+  - void_return
+  - blanket_disable_command
+  - no_magic_numbers # WIP
+
+opt_in_rules:
+  - sorted_imports
+  # - no_magic_numbers # WIP
+
+child_config:
+  swiftlint_custom_rules.yml
+
+function_body_length:
+  warning: 32
+  error: 32
+
+line_length:
+  warning: 140
+  error: 140
+  ignores_comments: true
+
+redundant_optional_initialization:
+  severity: error
+
+colon:
+  severity: error
+
+control_statement:
+  severity: error
+
+comma:
+  severity: error
+
+force_cast:
+  severity: error
+
+large_tuple:
+  warning: 3
+  error: 3
+
+identifier_name:
+  min_length:
+    warning: 3
+    error: 3
+  max_length:
+    warning: 50
+    error: 50
+
+switch_case_alignment:
+  indented_cases: true
+  severity: error

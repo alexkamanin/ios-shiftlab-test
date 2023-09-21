@@ -1,0 +1,7 @@
+custom_rules:
+  final_class:
+    include: "*.swift"
+    name: "Final class requrement"
+    message: "All classes must be final"
+    regex: '^[\t ]*(?:(?:internal|private|public)[\t ]+)?class[\t ]+(?!(?:func|var|let)[\t ]+)'
+    severity: error

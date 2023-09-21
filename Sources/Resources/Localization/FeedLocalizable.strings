@@ -1,0 +1,6 @@
+FEED_TITLE = "Feed";
+WELCOME_BUTTON = "Greeting";
+WELCOME_DIALOG_TITLE = "Welcome";
+WELCOME_DIALOG_MESSAGE = "Hi, %@ 👋";
+CONTEST_TIME_NOT_SPECIFIED = "Being clarified";
+ERROR_MESSAGE = "Something went wrong";
