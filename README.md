@@ -20,6 +20,8 @@ More details can be found [here](https://kontests.net/api).
 To generate `*.xcodeproj`-file use command `make generate`.  
 To generate and open immediately use command `make generate open`.
 
+If a warning is displayed `"xcodegen" cannot be opened because the developer cannot be verified.`, follow [this](https://support.apple.com/en-us/guide/mac-help/mh40616/mac) documentation.
+
 ## Preview
 
 https://github.com/alexkamanin/ios-shiftlab-test/assets/51982941/9d8ae411-4bf4-46d0-935e-a908afbc430b
